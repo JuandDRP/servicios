@@ -1,0 +1,49 @@
+.seat-map {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: auto;
+    justify-content: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.screen {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #ff0000; /* Rojo puro */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s, transform 0.1s;
+    margin: 0 10px; /* Añadir margen a los lados de cada botón */
+}
+
+.button:hover {
+    background-color: #cc0000; /* Rojo más oscuro al hacer hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.button:active {
+    background-color: #990000; /* Rojo aún más oscuro al hacer click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: scale(0.98); /* Pequeña reducción de tamaño al hacer click */
+}

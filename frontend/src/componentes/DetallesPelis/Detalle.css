@@ -1,0 +1,77 @@
+.detalle-container {
+  padding: 40px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1200px; 
+}
+
+.titulo {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  width: 100%; 
+}
+
+.detalle-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.detalle-image {
+  flex-basis: 40%; 
+  margin-right: 20px;
+}
+
+.detalle-image img {
+  max-width: 100%; 
+  height: auto;
+  border-radius: 20px;
+}
+
+.detalle-trailer {
+  flex-basis: 50%; 
+  position: relative;
+  padding-bottom: 30.25%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.detalle-trailer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+.detalle-info {
+  text-align: left;
+  width: 100%; 
+  margin-top: 20px; 
+}
+
+.detalle-info p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.detalle-info .titulo {
+  font-size: 18px;
+  color: gray;
+}
+
+.release-date,
+.runtime,
+.rating {
+  margin-bottom: 5px;
+}

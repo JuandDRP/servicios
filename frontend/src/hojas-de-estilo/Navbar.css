@@ -1,0 +1,169 @@
+nav {
+  background-color: #ff0202;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content:right; 
+  align-items: center;
+  width: 100%; 
+}
+
+li {
+  
+  display: inline-block; 
+  margin-right: 20px;
+  height: 100%; 
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.nav-container {
+  
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  height: 80px; 
+}
+input {
+  border-radius: 5px;
+  border: none
+  
+}
+
+button {
+  border-radius: 5px;
+  border: none
+}
+
+button:hover {
+  background-color: #fd5151;
+}
+
+.icon-cart {
+  width: 30px;
+  height: 30px;
+  stroke: #ffffff;
+}
+
+.icon-cart:hover {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container-icon {
+  position: relative;
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle; 
+}
+
+.count-products {
+  position: absolute;
+  top: -8px; 
+  right: -8px; 
+  background-color: #000;
+  color: #fff;
+  width: 20px; 
+  height: 20px; 
+  line-height: 20px; 
+  border-radius: 50%;
+  font-size: 12px; 
+}
+
+#contador-productos {
+  font-size: 12px;
+}
+
+.container-cart-products {
+  position: absolute;
+  top: 50px;
+  right: 0;
+
+  background-color: #fff;
+  width: 400px;
+  z-index: 1;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.cart-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.info-cart-product {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.8;
+}
+
+.titulo-producto-carrito {
+  font-size: 20px;
+  color: #000;
+}
+
+.precio-producto-carrito {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  margin-left: 10px;
+}
+
+.cantidad-producto-carrito {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.icon-close {
+  width: 25px;
+  height: 25px;
+}
+
+.icon-close:hover {
+  stroke: red;
+  cursor: pointer;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 20px;
+  color: #000;
+}
+
+.cart-total h3 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+}
+
+.total-pagar {
+  font-size: 20px;
+  font-weight: 900;
+  
+}
+
+.hidden-cart {
+  display: none;
+}
+
